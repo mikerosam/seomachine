@@ -177,27 +177,29 @@ Wingcopter, HAWE, and Origen Carbon all involved geographically distributed oper
 
 ## Priority Change List
 
-| Priority | Change | Primary Persona |
-|----------|--------|-----------------|
-| High | Move 800k Garrett story to R&D Director section; cross-reference in Test Engineer section | R&D Director |
-| High | Move Viessmann ROI stats (50%/75%/2.5x) to R&D Director use case section | R&D Director |
-| High | Add "works alongside existing tools, nothing changes for test operators" as an explicit feature/benefit | Systems Engineer |
-| High | Move tribal knowledge/config loss pain to Systems Engineer section | Systems Engineer |
-| High | Reframe Software/Data Engineer section around "domain engineers become self-sufficient" not "build infrastructure" | Software/Data Engineer |
-| High | Add "proactive expertise" as a named core VP, not a competitive differentiator footnote | All |
-| High | Add POC model as a named section with structure, timeline, cost, and typical outcome | All |
-| Medium | Add multi-site coordination as a named use case in R&D Director section | R&D Director |
-| Medium | Rewrite schemaless ingestion with a benefit statement for engineers dealing with changing schemas | Software/Data Engineer |
-| Medium | Add by-role navigation at top of document | All |
-| Medium | Add maintenance/duty cycle blindness benefit to Configuration Context Linking description | Systems Engineer |
-| Medium | Add forward-reference to natural language SQL agent in Systems Engineer use case section | Systems Engineer |
-| Medium | Add "stop being the data query gatekeeper" framing for natural language SQL agent | Software/Data Engineer |
-| Medium | Add "invisible by design — nothing changes for test operators" framing to Test Engineer section | Test Engineer |
-| Medium | Add a typical (non-exceptional) Test Engineer workflow story alongside Garrett/Fifer Vacuum examples | Test Engineer |
-| Low | Add capacity/operational detail to pricing section (nodes, data volume, deployments per tier) | Software/Data Engineer |
-| Low | Add supplier validation data quality use case | Systems Engineer |
-| Low | Connect pricing tiers to buying journey (POC → Professional → Scale) | All |
-| Low | Rewrite core VP section headers to lead with the problem, not the feature name | All |
+All changes implemented in commit `10f4bb9` (March 2026).
+
+| Priority | Change | Primary Persona | Status |
+|----------|--------|-----------------|--------|
+| High | Move 800k Garrett story to R&D Director section; cross-reference in Test Engineer section | R&D Director | ✓ Done |
+| High | Move Viessmann ROI stats (50%/75%/2.5x) to R&D Director use case section | R&D Director | ✓ Done |
+| High | Add "works alongside existing tools, nothing changes for test operators" as an explicit feature/benefit | Systems Engineer | ✓ Done |
+| High | Move tribal knowledge/config loss pain to Systems Engineer section | Systems Engineer | ✓ Done |
+| High | Reframe Software/Data Engineer section around "domain engineers become self-sufficient" not "build infrastructure" | Software/Data Engineer | ✓ Done |
+| High | Add "proactive expertise" as a named core VP, not a competitive differentiator footnote | All | ✓ Done |
+| High | Add POC model as a named section with structure, timeline, cost, and typical outcome | All | ✓ Done |
+| Medium | Add multi-site coordination as a named use case in R&D Director section | R&D Director | ✓ Done |
+| Medium | Rewrite schemaless ingestion with a benefit statement for engineers dealing with changing schemas | Software/Data Engineer | ✓ Done |
+| Medium | Add by-role navigation at top of document | All | ✓ Done |
+| Medium | Add maintenance/duty cycle blindness benefit to Configuration Context Linking description | Systems Engineer | ✓ Done |
+| Medium | Add forward-reference to natural language SQL agent in Systems Engineer use case section | Systems Engineer | ✓ Done |
+| Medium | Add "stop being the data query gatekeeper" framing for natural language SQL agent | Software/Data Engineer | ✓ Done |
+| Medium | Add "invisible by design — nothing changes for test operators" framing to Test Engineer section | Test Engineer | ✓ Done |
+| Medium | Add a typical (non-exceptional) Test Engineer workflow story alongside Garrett/Fifer Vacuum examples | Test Engineer | ✓ Done |
+| Low | Add capacity/operational detail to pricing section (nodes, data volume, deployments per tier) | Software/Data Engineer | Not implemented |
+| Low | Add supplier validation data quality use case | Systems Engineer | ✓ Done |
+| Low | Connect pricing tiers to buying journey (POC → Professional → Scale) | All | ✓ Done |
+| Low | Rewrite core VP section headers to lead with the problem, not the feature name | All | ✓ Done |
 
 ---
 
